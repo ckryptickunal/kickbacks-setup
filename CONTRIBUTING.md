@@ -1,6 +1,15 @@
 # Contributing
 
-Thanks for helping improve the Kickbacks Setup Kit. This repo is **documentation only** — it does not contain Kickbacks extension source code.
+Thanks for helping improve the Kickbacks Setup Kit. Every fix you add helps the next person searching GitHub for **Kickbacks Cursor setup**, **Kickbacks incompatible**, or **Claude Code earn money**.
+
+This repo is **documentation only** — it does not contain Kickbacks extension source code.
+
+**Quick ways to help (no PR required):**
+
+- ⭐ **Star the repo** if it saved you time — boosts GitHub search visibility
+- 📣 **Share** [SHARE.md](./SHARE.md) copy-paste messages with your team
+- ✅ **Post a [setup success story](https://github.com/ckryptickunal/kickbacks-setup/issues/new?template=setup-success.yml)** — builds trust for new users
+- 🐛 **Open a doc issue** if something's unclear or outdated
 
 ## What to contribute
 
