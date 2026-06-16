@@ -30,7 +30,6 @@ This repo is **documentation only** — it does not contain Kickbacks extension 
 2. Edit the relevant file:
    - **Humans** → `USER-GUIDE.md` (keep the Google Docs paste block plain-text)
    - **Agents** → `INSTRUCTIONS.md` (keep STEP-xxx numbering and GATE semantics)
-   - **Meta** → `TRACE.md` (add a revision log entry)
 3. Open a pull request with:
    - What you changed and why
    - Which Kickbacks / Claude Code versions you tested (if any)
@@ -44,7 +43,3 @@ Before merging doc changes, verify:
 - [ ] All URLs resolve
 - [ ] INSTRUCTIONS.md one-line prompt still works when pasted into an agent
 - [ ] USER-GUIDE paste block has no markdown tables (Google Docs friendly)
-
-## Maintainer notes
-
-See [TRACE.md](./TRACE.md) for research sources, known gaps, and handoff context for future agents.
