@@ -1,0 +1,43 @@
+name: Documentation improvement
+description: Suggest a fix or improvement to this setup kit
+title: "[docs]: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the Kickbacks Setup Kit. For extension bugs, use the [official Kickbacks repo](https://github.com/andrewmccalip/kickbacks.ai/issues) instead.
+
+  - type: dropdown
+    id: doc
+    attributes:
+      label: Which document?
+      options:
+        - README.md
+        - INSTRUCTIONS.md (agent runbook)
+        - USER-GUIDE.md (human guide)
+        - AGENTS.md
+        - TRACE.md
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong or missing?
+      placeholder: e.g. "On Windows, the cursor CLI path is different..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix (optional)
+      placeholder: Paste proposed wording or steps
+
+  - type: input
+    id: versions
+    attributes:
+      label: Your environment (optional)
+      placeholder: e.g. Cursor 0.48, Kickbacks 0.3.177, Claude Code 2.1.178, macOS
