@@ -1,20 +1,70 @@
 # Kickbacks Setup Kit
 
-**Free setup guide for [Kickbacks.ai](https://kickbacks.ai)** — earn up to **50% of ad revenue** while Claude Code or Codex shows its “thinking…” spinner in **Cursor**, **VS Code**, or the **terminal**.
+**The easiest way to install [Kickbacks.ai](https://kickbacks.ai) and start earning from Claude Code & Codex while you code.**
+
+Turn the “Discombobulating…” spinner into passive income — up to **50% of ad revenue** back to you. Works in **Cursor**, **VS Code**, and the **Claude Code terminal**. Free. Takes ~10 minutes.
 
 [![Kickbacks.ai](https://img.shields.io/badge/Kickbacks.ai-website-111?labelColor=6366f1)](https://kickbacks.ai)
-[![VS Code Marketplace](https://img.shields.io/badge/Install-VS%20Code%20Marketplace-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
-[![Agent playbook](https://img.shields.io/badge/Agent-INSTRUCTIONS.md-000?labelColor=22c55e)](./INSTRUCTIONS.md)
+[![Install extension](https://img.shields.io/badge/Install-VS%20Code%20Marketplace-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+[![Marketplace installs](https://img.shields.io/badge/Marketplace-20k%2B%20installs-22c55e)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+[![Agent runbook](https://img.shields.io/badge/AI%20agents-INSTRUCTIONS.md-000?labelColor=8b5cf6)](./INSTRUCTIONS.md)
+[![License: MIT](https://img.shields.io/badge/docs-MIT-blue)](./LICENSE)
 
-> **Community documentation.** Not affiliated with ShiftKeys, Inc. or Kickbacks.ai. For official support: [support@kickbacks.ai](mailto:support@kickbacks.ai) · [GitHub issues](https://github.com/andrewmccalip/kickbacks.ai/issues)
+> **Community setup guide** — not affiliated with ShiftKeys, Inc. or Kickbacks.ai.  
+> Official support: [support@kickbacks.ai](mailto:support@kickbacks.ai) · [Extension issues](https://github.com/andrewmccalip/kickbacks.ai/issues)
+
+**⭐ If this repo saves you time, star it** so others searching “Kickbacks Cursor setup” or “how to install Kickbacks.ai” can find it too.
 
 ---
 
-## What is Kickbacks?
+## Table of contents
 
-While Claude Code or Codex is working, you normally see spinner verbs like *“Discombobulating…”*. **Kickbacks** replaces that line with a small sponsored message. Advertisers bid for the slot; you earn on impressions and clicks. Your balance appears in the editor status bar and on [kickbacks.ai](https://kickbacks.ai).
+- [Why use this repo?](#why-use-this-repo)
+- [How Kickbacks works](#how-kickbacks-works)
+- [Pick your path](#pick-your-path)
+- [5-minute setup (Cursor & VS Code)](#5-minute-setup-cursor--vs-code)
+- [Setup with an AI agent](#setup-with-an-ai-agent)
+- [Earnings at a glance](#earnings-at-a-glance)
+- [Compatibility](#compatibility)
+- [Troubleshooting quick fixes](#troubleshooting-quick-fixes)
+- [Share with your team](#share-with-your-team)
+- [FAQ](#faq)
+- [All docs & files](#all-docs--files)
 
-**Kickbacks does not read your code, prompts, or AI chat.** It only changes display text during wait states.
+---
+
+## Why use this repo?
+
+Official Kickbacks docs are spread across the [website](https://kickbacks.ai), [marketplace listing](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai), and [GitHub mirror](https://github.com/andrewmccalip/kickbacks.ai). **This repo puts everything in one place** — tested, ordered, and ready to hand to a human *or* an AI agent.
+
+| What you get | Why it matters |
+|--------------|----------------|
+| **[USER-GUIDE.md](./USER-GUIDE.md)** — plain-English steps | No terminal required. Paste into Google Docs for your team. |
+| **[INSTRUCTIONS.md](./INSTRUCTIONS.md)** — 25-step agent runbook | Cursor / Claude Code can install extensions and troubleshoot for you. |
+| **[docs/TROUBLESHOOTING.md](./docs/TROUBLESHOOTING.md)** | Fixes for “Kickbacks incompatible”, sign-in errors, $0 balance. |
+| **[docs/FAQ.md](./docs/FAQ.md)** | Privacy, payouts, Cursor vs VS Code, terminal-only users. |
+| **[SHARE.md](./SHARE.md)** | Copy-paste messages for Slack, Discord, X, and email. |
+
+**Built for search:** keywords like *Kickbacks.ai setup*, *Kickbacks Cursor*, *Kickbacks VS Code*, *Claude Code earn money*, and *Kickbacks incompatible fix* are covered throughout.
+
+---
+
+## How Kickbacks works
+
+```mermaid
+flowchart LR
+    A[You use Claude Code or Codex] --> B[AI shows thinking spinner]
+    B --> C[Kickbacks swaps spinner text for a tiny ad]
+    C --> D[You earn impressions & clicks]
+    D --> E[Balance updates in status bar]
+```
+
+1. **Claude Code** or **Codex** shows a spinner while working (*“Baking…”*, *“Discombobulating…”*).
+2. **Kickbacks** replaces that line with a small sponsored message — advertisers bid for the slot.
+3. **You earn** on impressions and clicks (clicks pay ~**50×** more than impressions).
+4. **Your balance** appears in the editor status bar and on [kickbacks.ai](https://kickbacks.ai).
+
+**Privacy:** Kickbacks only changes display text. It does **not** read your code, prompts, or AI replies. Fully reversible with **Kickbacks: Restore Claude Code**.
 
 ---
 
@@ -22,24 +72,48 @@ While Claude Code or Codex is working, you normally see spinner verbs like *“D
 
 | You are… | Start here | Time |
 |----------|------------|------|
-| **Human** — want step-by-step clicks | [USER-GUIDE.md](./USER-GUIDE.md) | ~10 min |
-| **AI agent** — Cursor, Claude Code, Codex, Copilot | [INSTRUCTIONS.md](./INSTRUCTIONS.md) or [AGENTS.md](./AGENTS.md) | ~15 min |
-| **Maintainer / proofreader** | [TRACE.md](./TRACE.md) | — |
+| 👤 **New to extensions** — want clicks, not commands | [**USER-GUIDE.md**](./USER-GUIDE.md) | ~10 min |
+| 🤖 **Using Cursor, Claude Code, or Copilot** | [**INSTRUCTIONS.md**](./INSTRUCTIONS.md) or [**AGENTS.md**](./AGENTS.md) | ~15 min |
+| 🔧 **Stuck on an error** | [**docs/TROUBLESHOOTING.md**](./docs/TROUBLESHOOTING.md) | ~2 min |
+| 📣 **Sharing with friends or a team** | [**SHARE.md**](./SHARE.md) | ~1 min |
 
-### Quick start (humans)
+---
 
-1. Open **Cursor** or **VS Code**.
-2. **Extensions** → search **Claude Code** → Install (skip if you already have it).
-3. **Extensions** → search **Kickbacks** → Install **Kickbacks.ai**.
-4. **Cmd/Ctrl+Shift+P** → **Developer: Reload Window**.
-5. Click **Kickbacks: Sign in** in the bottom status bar → sign in with Google.
-6. Use Claude or Codex normally. Earnings accrue while they “think.”
+## 5-minute setup (Cursor & VS Code)
 
-Full details, status bar meanings, and troubleshooting: **[USER-GUIDE.md](./USER-GUIDE.md)**
+> **Install order matters:** Claude Code **first**, then Kickbacks. Skipping this causes `Kickbacks incompatible` errors. [Details →](./docs/TROUBLESHOOTING.md#kickbacks-incompatible)
 
-### Quick start (AI agents)
+### Step 1 — Install Claude Code (skip if installed)
 
-Paste this into your agent chat:
+1. Open **Cursor** or **VS Code**
+2. **Extensions** (`Cmd/Ctrl + Shift + X`) → search **Claude Code**
+3. Install **Claude Code** by Anthropic
+4. Open the Claude panel once (spark icon or status bar)
+
+*Using Codex instead?* Install **ChatGPT** by OpenAI from Extensions.
+
+### Step 2 — Install Kickbacks
+
+1. **Extensions** → search **Kickbacks**
+2. Install [**Kickbacks.ai**](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+3. **Cmd/Ctrl + Shift + P** → **Developer: Reload Window**
+
+### Step 3 — Sign in & earn
+
+1. Click **Kickbacks: Sign in** in the bottom status bar
+2. Sign in with **Google** in your browser
+3. Confirm status shows **`Kickbacks ($0.00 today · $0.00)`**
+4. Use Claude or Codex normally — earnings accrue while they think
+
+**Preview ads before sign-in do not count.** You must sign in to earn.
+
+→ Full walkthrough with status bar meanings: [**USER-GUIDE.md**](./USER-GUIDE.md)
+
+---
+
+## Setup with an AI agent
+
+Paste this into **Cursor**, **Claude Code**, or any agent that can fetch URLs:
 
 ```
 Fetch and execute INSTRUCTIONS.md from https://github.com/ckryptickunal/kickbacks-setup
@@ -47,33 +121,116 @@ Run STEP-001 onward. Report PASS/FAIL after each ACTION. Stop at every GATE unti
 Install extensions in order: Claude Code first, then Kickbacks.
 ```
 
-Or open [INSTRUCTIONS.md](./INSTRUCTIONS.md) locally and follow the runbook (STEP-001 … STEP-025).
+**Raw URL** (no clone needed):  
+`https://raw.githubusercontent.com/ckryptickunal/kickbacks-setup/main/INSTRUCTIONS.md`
+
+Agents follow a 25-step runbook: detect your editor, install extensions, guide sign-in, run smoke tests, and produce a completion report.
 
 ---
 
-## Requirements
+## Earnings at a glance
 
-| Requirement | Why |
-|-------------|-----|
-| **Cursor** or **VS Code** | Kickbacks is an editor extension |
-| **Claude Code** and/or **Codex** | Something must show the “thinking” spinner |
-| **Google account** | Sign-in and earnings tracking |
-| **Internet** | Ads and balance sync from kickbacks.ai |
+| Topic | Detail |
+|-------|--------|
+| **Revenue share** | Up to **50%** of ad revenue to you |
+| **Impressions** | Earn while Claude/Codex shows the spinner |
+| **Clicks** | Worth ~**50×** an impression |
+| **Where balance shows** | Editor status bar + [kickbacks.ai](https://kickbacks.ai) dashboard |
+| **Payouts** | Set up on kickbacks.ai (same Google account) |
+| **Caps** | Hourly/daily limits may pause earning — ads still show |
 
-**Install order matters:** Claude Code extension **before** Kickbacks ([issue #13](https://github.com/andrewmccalip/kickbacks.ai/issues/13)).
+**Four ad surfaces:** Claude Code panel spinner · Codex panel spinner · Terminal status line · Terminal spinner verb (CLI 2.1.143+)
 
 ---
 
-## Compatibility (June 2026)
+## Compatibility
 
-| Surface | Where ads show | Requirement |
-|---------|----------------|-------------|
-| Spinner overlay | Claude Code panel in editor | Claude Code + Kickbacks |
-| Thinking shimmer | Codex / ChatGPT panel | OpenAI ChatGPT extension + Kickbacks |
-| Status-bar line | Claude Code **terminal CLI** | Any Claude Code CLI version |
-| Spinner verb | Claude Code **terminal CLI** | Claude Code **2.1.143+** |
+| Surface | Where ads show | You need |
+|---------|----------------|----------|
+| Spinner overlay | Claude Code panel | Claude Code + Kickbacks |
+| Thinking shimmer | Codex / ChatGPT panel | OpenAI ChatGPT ext + Kickbacks |
+| Status-bar line | `claude` in terminal | Any Claude Code CLI |
+| Spinner verb | `claude` in terminal | Claude Code **2.1.143+** |
 
-Works on **VS Code**, **Cursor**, Remote-SSH, and devcontainers.
+✅ **VS Code** · ✅ **Cursor** · ✅ **Remote-SSH** · ✅ **Dev containers**
+
+Even **terminal-only** users need the Claude Code + Kickbacks extensions installed in the editor (sign-in happens there). [Why? → FAQ](./docs/FAQ.md#i-only-use-claude-in-terminal-do-i-still-need-the-editor-extension)
+
+---
+
+## Troubleshooting quick fixes
+
+| Problem | Fix |
+|---------|-----|
+| `Kickbacks incompatible` | Uninstall Kickbacks → reinstall Claude Code → reinstall Kickbacks → Reload Window. [Full guide →](./docs/TROUBLESHOOTING.md#kickbacks-incompatible) |
+| `Kickbacks: Sign in` missing | Reinstall in correct order. [Guide →](./docs/TROUBLESHOOTING.md#sign-in-command-not-found) |
+| Balance stays $0.00 | Sign in? Preview ads don't count. Hit a cap? Need reload? [Guide →](./docs/TROUBLESHOOTING.md#balance-stays-000) |
+| `code` CLI installs fail on Mac | Your `code` may point to Cursor — use `cursor` CLI instead. [Guide →](./docs/TROUBLESHOOTING.md#extension-not-found-on-mac) |
+| ⚠ RELOAD to earn money | Cmd/Ctrl+Shift+P → **Developer: Reload Window** |
+
+→ **[Full troubleshooting guide](./docs/TROUBLESHOOTING.md)**
+
+---
+
+## Share with your team
+
+Know someone using Claude Code or Cursor? Send them this repo — setup takes ~10 minutes and costs nothing.
+
+**One-liner for Slack / Discord / iMessage:**
+
+> Free setup guide for Kickbacks.ai — earn up to 50% of ad revenue while Claude/Codex thinks. Works in Cursor & VS Code: https://github.com/ckryptickunal/kickbacks-setup
+
+More copy-paste templates (email, X, team docs): [**SHARE.md**](./SHARE.md)
+
+**Found this helpful?** ⭐ Star the repo · 🍴 Fork for your team · 🐛 [Report a doc issue](https://github.com/ckryptickunal/kickbacks-setup/issues/new/choose)
+
+---
+
+## FAQ
+
+<details>
+<summary><strong>Does Kickbacks slow down Claude or Codex?</strong></summary>
+
+No. It only changes spinner display text during wait states. All AI features work exactly as before.
+</details>
+
+<details>
+<summary><strong>Is my code safe?</strong></summary>
+
+Yes. Kickbacks never reads your files, prompts, or completions. It communicates only with kickbacks.ai for ads and earnings. [Privacy details →](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+</details>
+
+<details>
+<summary><strong>Cursor or VS Code — which is better?</strong></summary>
+
+Both work identically. Kickbacks officially supports Cursor the same as VS Code.
+</details>
+
+<details>
+<summary><strong>Can I turn ads off?</strong></summary>
+
+Yes. Click the status bar → **Disable Kickbacks**, or run **Kickbacks: Restore Claude Code** to fully revert.
+</details>
+
+→ **[Full FAQ with 20+ answers](./docs/FAQ.md)**
+
+---
+
+## All docs & files
+
+```
+kickbacks-setup/
+├── README.md                 ← Start here
+├── USER-GUIDE.md             ← Human setup (Google Docs friendly)
+├── INSTRUCTIONS.md           ← AI agent runbook (STEP-001 … STEP-025)
+├── AGENTS.md                 ← Agent entry point
+├── SHARE.md                  ← Copy-paste share messages
+├── docs/
+│   ├── FAQ.md                ← Searchable Q&A
+│   └── TROUBLESHOOTING.md    ← Error fixes
+├── CONTRIBUTING.md           ← Improve this repo
+└── TRACE.md                  ← Maintainer research notes
+```
 
 ---
 
@@ -81,57 +238,22 @@ Works on **VS Code**, **Cursor**, Remote-SSH, and devcontainers.
 
 | Resource | URL |
 |----------|-----|
-| Website & dashboard | https://kickbacks.ai |
-| VS Code Marketplace | https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai |
-| Extension source (read-only) | https://github.com/andrewmccalip/kickbacks.ai |
-| Compatibility & bugs | https://github.com/andrewmccalip/kickbacks.ai/issues |
+| Website & payouts | https://kickbacks.ai |
+| Install extension | https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai |
+| Extension source | https://github.com/andrewmccalip/kickbacks.ai |
+| Extension bugs | https://github.com/andrewmccalip/kickbacks.ai/issues |
 
 ---
 
-## Repository layout
+## Contributing & license
 
-```
-kickbacks-setup/
-├── README.md          ← You are here
-├── AGENTS.md          ← Entry point for AI coding agents
-├── INSTRUCTIONS.md    ← Full agent runbook (STEP-001 … STEP-025)
-├── USER-GUIDE.md      ← Human guide (Google Docs paste-ready)
-├── TRACE.md           ← Research notes for maintainers
-└── CONTRIBUTING.md    ← How to improve this kit
-```
+Improvements welcome — typos, new troubleshooting steps, platform-specific tips. See [**CONTRIBUTING.md**](./CONTRIBUTING.md).
 
-**Raw URLs for agents** (fetch without cloning):
-
-- Instructions: `https://raw.githubusercontent.com/ckryptickunal/kickbacks-setup/main/INSTRUCTIONS.md`
-- User guide: `https://raw.githubusercontent.com/ckryptickunal/kickbacks-setup/main/USER-GUIDE.md`
+Documentation in this repo is [**MIT licensed**](./LICENSE). Kickbacks.ai is a trademark of its respective owner.
 
 ---
 
-## FAQ
-
-**Does Kickbacks slow down Claude or Codex?**  
-No meaningful impact — it only changes display text during wait states.
-
-**Do I need to sign in?**  
-Yes, to earn. Preview ads before sign-in do not count toward your balance.
-
-**I only use `claude` in Terminal — do I still need the editor extension?**  
-Yes. Install Claude Code and Kickbacks in Cursor/VS Code, sign in from the status bar, then use the terminal as usual.
-
-**Cursor or VS Code?**  
-Both work the same way. On some Macs, the `code` CLI points to Cursor — agents should prefer the `cursor` CLI when installs fail.
-
-**Is this open source?**  
-This setup kit is MIT-licensed documentation. The Kickbacks extension itself is source-available (ShiftKeys, Inc.), not open source.
-
----
-
-## Contributing
-
-Found a typo, outdated extension ID, or clearer troubleshooting step? See [CONTRIBUTING.md](./CONTRIBUTING.md).
-
----
-
-## License
-
-Documentation in this repository is licensed under the [MIT License](./LICENSE). Kickbacks.ai and the Kickbacks extension are trademarks of their respective owners.
+<p align="center">
+  <strong>⭐ Star this repo if it helped you set up Kickbacks.ai</strong><br>
+  <sub>Helps others find the best Kickbacks setup guide on GitHub</sub>
+</p>
