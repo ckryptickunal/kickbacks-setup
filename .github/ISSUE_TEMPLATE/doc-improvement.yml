@@ -17,7 +17,6 @@ body:
         - INSTRUCTIONS.md (agent runbook)
         - USER-GUIDE.md (human guide)
         - AGENTS.md
-        - TRACE.md
         - Other
     validations:
       required: true
