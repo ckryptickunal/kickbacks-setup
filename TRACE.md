@@ -183,6 +183,7 @@ kickbacks-setup/
 | 2026-06-16 | Cursor agent (initial) | Created full kit from official docs + live CLI verification on user Mac |
 | 2026-06-16 | Cursor agent (rev 2) | USER-GUIDE: Google Docs paste block, no markdown tables. INSTRUCTIONS: STEP-001–025 runbook with ACTION/SAY/EXPECT/GATE/IF FAIL |
 | 2026-06-16 | Cursor agent (rev 3) | GitHub repo polish: AGENTS.md, CONTRIBUTING, LICENSE, issue templates, SEO README, canonical URLs |
+| 2026-06-16 | Cursor agent (rev 4) | SEO + engagement: docs/FAQ, docs/TROUBLESHOOTING, SHARE.md, collapsible FAQ, mermaid diagram, success-story template, expanded topics |
 
 ---
 
