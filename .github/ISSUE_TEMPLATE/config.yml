@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Kickbacks extension bugs
+    url: https://github.com/andrewmccalip/kickbacks.ai/issues
+    about: Report extension compatibility, sign-in, or earning issues to the official Kickbacks repo
+  - name: Kickbacks support email
+    url: mailto:support@kickbacks.ai
+    about: Official Kickbacks.ai support
