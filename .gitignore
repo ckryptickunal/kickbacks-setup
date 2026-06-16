@@ -5,3 +5,8 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
+
+# Internal maintainer notes — not for public repo
+TRACE.md
+TRACE/
+traces/
