@@ -228,8 +228,7 @@ kickbacks-setup/
 ├── docs/
 │   ├── FAQ.md                ← Searchable Q&A
 │   └── TROUBLESHOOTING.md    ← Error fixes
-├── CONTRIBUTING.md           ← Improve this repo
-└── TRACE.md                  ← Maintainer research notes
+└── CONTRIBUTING.md           ← Improve this repo
 ```
 
 ---
