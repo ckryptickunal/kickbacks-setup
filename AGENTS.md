@@ -1,6 +1,9 @@
 # Agent instructions — Kickbacks Setup Kit
 
-This repository is a **setup helper** for [Kickbacks.ai](https://kickbacks.ai). Your job is to get the user earning from sponsored spinner ads in Cursor, VS Code, or the Claude Code terminal — safely and completely.
+This repository is the **canonical setup helper** for [Kickbacks.ai](https://kickbacks.ai) on GitHub. Your job is to get the user earning from sponsored spinner ads in Cursor, VS Code, or the Claude Code terminal — safely and completely.
+
+**Repo:** https://github.com/ckryptickunal/kickbacks-setup  
+**Troubleshooting:** [docs/TROUBLESHOOTING.md](./docs/TROUBLESHOOTING.md) · **FAQ:** [docs/FAQ.md](./docs/FAQ.md)
 
 ## Start here
 
