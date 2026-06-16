@@ -1,0 +1,61 @@
+name: Setup success story
+description: Share that Kickbacks setup worked — helps others trust the guide
+title: "✅ Setup success: "
+labels: ["success-story"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🎉 Thanks for sharing! Success stories help others discover and trust this guide.
+        If this repo helped you, consider **starring** it too ⭐
+
+  - type: dropdown
+    id: editor
+    attributes:
+      label: Which editor?
+      options:
+        - Cursor
+        - VS Code
+        - Both
+    validations:
+      required: true
+
+  - type: dropdown
+    id: ai_tool
+    attributes:
+      label: Which AI tool?
+      options:
+        - Claude Code panel
+        - Codex / ChatGPT panel
+        - Claude Code terminal (claude CLI)
+        - Multiple
+    validations:
+      required: true
+
+  - type: dropdown
+    id: setup_method
+    attributes:
+      label: How did you set up?
+      options:
+        - USER-GUIDE.md (manual)
+        - INSTRUCTIONS.md (AI agent)
+        - README quick start only
+        - Mixed
+    validations:
+      required: true
+
+  - type: textarea
+    id: story
+    attributes:
+      label: What worked well? Any tips for the next person?
+      placeholder: e.g. "Reinstalling in order fixed incompatible. Took 8 minutes on Windows."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: share
+    attributes:
+      label: Optional
+      options:
+        - label: I'm OK with this being referenced in the repo (anonymized) to help others
+          required: false
