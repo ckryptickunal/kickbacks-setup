@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: ⭐ Star the repo
+    url: https://github.com/ckryptickunal/kickbacks-setup
+    about: If this guide helped you set up Kickbacks, starring helps others find it on GitHub search
   - name: Kickbacks extension bugs
     url: https://github.com/andrewmccalip/kickbacks.ai/issues
     about: Report extension compatibility, sign-in, or earning issues to the official Kickbacks repo
