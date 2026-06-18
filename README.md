@@ -5,9 +5,9 @@
 Turn the “Discombobulating…” spinner into passive income — up to **50% of ad revenue** back to you. Works in **Cursor**, **VS Code**, and the **Claude Code terminal**. Free. Takes ~10 minutes.
 
 [![Kickbacks.ai website](https://img.shields.io/badge/Kickbacks.ai-website-6366f1)](https://kickbacks.ai)
-[![VS Code Marketplace version](https://img.shields.io/visual-studio-marketplace/v/Kickbacksai.kickbacks-ai?label=Marketplace&logo=visualstudiocode&logoColor=white&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
-[![Marketplace installs](https://img.shields.io/visual-studio-marketplace/i/Kickbacksai.kickbacks-ai?label=installs&color=22c55e)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
-[![Marketplace rating](https://img.shields.io/visual-studio-marketplace/r/Kickbacksai.kickbacks-ai?label=rating)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+[![Install on VS Code Marketplace](https://img.shields.io/badge/Marketplace-install-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+[![Marketplace installs](https://img.shields.io/badge/installs-20k%2B-22c55e)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+[![Extension version](https://img.shields.io/badge/extension-v0.3.177-555)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
 [![AI agent runbook](https://img.shields.io/badge/AI%20agents-INSTRUCTIONS.md-8b5cf6)](./INSTRUCTIONS.md)
 [![Star on GitHub](https://img.shields.io/github/stars/ckryptickunal/kickbacks-setup?label=stars&color=f59e0b)](https://github.com/ckryptickunal/kickbacks-setup/stargazers)
 [![License: MIT](https://img.shields.io/badge/docs-MIT-blue)](./LICENSE)
