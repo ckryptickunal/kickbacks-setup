@@ -4,10 +4,12 @@
 
 Turn the “Discombobulating…” spinner into passive income — up to **50% of ad revenue** back to you. Works in **Cursor**, **VS Code**, and the **Claude Code terminal**. Free. Takes ~10 minutes.
 
-[![Kickbacks.ai](https://img.shields.io/badge/Kickbacks.ai-website-111?labelColor=6366f1)](https://kickbacks.ai)
-[![Install extension](https://img.shields.io/badge/Install-VS%20Code%20Marketplace-007ACC?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
-[![Marketplace installs](https://img.shields.io/badge/Marketplace-20k%2B%20installs-22c55e)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
-[![Agent runbook](https://img.shields.io/badge/AI%20agents-INSTRUCTIONS.md-000?labelColor=8b5cf6)](./INSTRUCTIONS.md)
+[![Kickbacks.ai website](https://img.shields.io/badge/Kickbacks.ai-website-6366f1)](https://kickbacks.ai)
+[![VS Code Marketplace version](https://img.shields.io/visual-studio-marketplace/v/Kickbacksai.kickbacks-ai?label=Marketplace&logo=visualstudiocode&logoColor=white&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+[![Marketplace installs](https://img.shields.io/visual-studio-marketplace/i/Kickbacksai.kickbacks-ai?label=installs&color=22c55e)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+[![Marketplace rating](https://img.shields.io/visual-studio-marketplace/r/Kickbacksai.kickbacks-ai?label=rating)](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+[![AI agent runbook](https://img.shields.io/badge/AI%20agents-INSTRUCTIONS.md-8b5cf6)](./INSTRUCTIONS.md)
+[![Star on GitHub](https://img.shields.io/github/stars/ckryptickunal/kickbacks-setup?label=stars&color=f59e0b)](https://github.com/ckryptickunal/kickbacks-setup/stargazers)
 [![License: MIT](https://img.shields.io/badge/docs-MIT-blue)](./LICENSE)
 
 > **Community setup guide** — not affiliated with ShiftKeys, Inc. or Kickbacks.ai.  
@@ -21,10 +23,11 @@ Turn the “Discombobulating…” spinner into passive income — up to **50% o
 
 - [Why use this repo?](#why-use-this-repo)
 - [How Kickbacks works](#how-kickbacks-works)
+- [What to expect (honest status)](#what-to-expect-honest-status)
 - [Pick your path](#pick-your-path)
 - [5-minute setup (Cursor & VS Code)](#5-minute-setup-cursor--vs-code)
 - [Setup with an AI agent](#setup-with-an-ai-agent)
-- [Earnings at a glance](#earnings-at-a-glance)
+- [Earnings, payouts & eligibility](#earnings-payouts--eligibility)
 - [Compatibility](#compatibility)
 - [Troubleshooting quick fixes](#troubleshooting-quick-fixes)
 - [Share with your team](#share-with-your-team)
@@ -64,7 +67,20 @@ flowchart LR
 3. **You earn** on impressions and clicks (clicks pay ~**50×** more than impressions).
 4. **Your balance** appears in the editor status bar and on [kickbacks.ai](https://kickbacks.ai).
 
-**Privacy:** Kickbacks only changes display text. It does **not** read your code, prompts, or AI replies. Fully reversible with **Kickbacks: Restore Claude Code**.
+**Privacy:** Kickbacks only changes display text. It does **not** read your code, prompts, files, or AI replies. It sends ad/visibility events, a per-install ID, and your account email after sign-in. IPs are stored only as a salted one-way hash. Fully reversible with **Kickbacks: Restore Claude Code**.
+
+---
+
+## What to expect (honest status)
+
+Kickbacks is **early** (as of June 2026). Set expectations correctly before you spend 10 minutes installing it:
+
+- 💵 **You earn an estimated 50% of *net* ad revenue** — credited per qualifying impression (ad visible ≥ 5s during real coding) and per click (~50× an impression).
+- 🌱 **It's bootstrapping.** The platform is seeding its own ad inventory while it onboards real advertisers, so early balances are typically small.
+- 🏦 **Payouts are monthly via Stripe Connect** once your balance crosses **US $10** (tax forms required). **Some countries can't cash out yet** — including **India, Pakistan, Bangladesh, Nigeria, and Vietnam**. [Check before installing →](./docs/FAQ.md#which-countries-can-receive-payouts)
+- ✅ **One account per person, genuine usage only.** No bots, scripts, or fake clicks — that's how accounts get banned. [Stay eligible →](#earnings-payouts--eligibility)
+
+> This is a community guide, not a get-rich-quick scheme. Install it because the ads are unobtrusive and the upside is free — not because it'll replace your salary.
 
 ---
 
@@ -128,18 +144,31 @@ Agents follow a 25-step runbook: detect your editor, install extensions, guide s
 
 ---
 
-## Earnings at a glance
+## Earnings, payouts & eligibility
 
 | Topic | Detail |
 |-------|--------|
-| **Revenue share** | Up to **50%** of ad revenue to you |
-| **Impressions** | Earn while Claude/Codex shows the spinner |
+| **Revenue share** | Estimated **50%** of **net** ad revenue to you |
+| **Impressions** | Earn when an ad is visible **≥ 5 seconds** during a real request |
 | **Clicks** | Worth ~**50×** an impression |
-| **Where balance shows** | Editor status bar + [kickbacks.ai](https://kickbacks.ai) dashboard |
-| **Payouts** | Set up on kickbacks.ai (same Google account) |
+| **Where balance shows** | Editor status bar + [kickbacks.ai](https://kickbacks.ai) ledger |
+| **Payout method** | Monthly via **Stripe Connect** (tax forms required) |
+| **Payout threshold** | Balance must cross **US $10** |
+| **Country limits** | India, Pakistan, Bangladesh, Nigeria, Vietnam **can't cash out yet** — [details](./docs/FAQ.md#which-countries-can-receive-payouts) |
 | **Caps** | Hourly/daily limits may pause earning — ads still show |
 
 **Four ad surfaces:** Claude Code panel spinner · Codex panel spinner · Terminal status line · Terminal spinner verb (CLI 2.1.143+)
+
+### Stay eligible (ground rules)
+
+Kickbacks bans accounts that game the system. To keep your earnings:
+
+- ✅ **One account per person** — no account networks or alts
+- ✅ **Real usage only** — no bots, scripts, or auto-clickers to inflate impressions
+- ✅ **Don't tamper with telemetry** or circumvent caps
+- ✅ Let ads display naturally during genuine coding — that's all that counts
+
+[Full fraud ground rules → kickbacks.ai/faq](https://kickbacks.ai/faq)
 
 ---
 
@@ -197,7 +226,13 @@ No. It only changes spinner display text during wait states. All AI features wor
 <details>
 <summary><strong>Is my code safe?</strong></summary>
 
-Yes. Kickbacks never reads your files, prompts, or completions. It communicates only with kickbacks.ai for ads and earnings. [Privacy details →](https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai)
+Yes. Kickbacks never reads your files, prompts, completions, or AI responses. It sends ad/visibility events, extension/host versions, and a per-install ID; after sign-in it links your account email. IPs are kept only as a salted, one-way hash for fraud checks. [Privacy details →](https://kickbacks.ai/faq)
+</details>
+
+<details>
+<summary><strong>Can I actually cash out — and where?</strong></summary>
+
+Payouts run monthly through Stripe Connect once your balance passes US $10 (tax forms required). A few countries can't receive payouts yet — including India, Pakistan, Bangladesh, Nigeria, and Vietnam. Check the [country list](./docs/FAQ.md#which-countries-can-receive-payouts) before you install.
 </details>
 
 <details>
@@ -255,4 +290,8 @@ Documentation in this repo is [**MIT licensed**](./LICENSE). Kickbacks.ai is a t
 <p align="center">
   <strong>⭐ Star this repo if it helped you set up Kickbacks.ai</strong><br>
   <sub>Helps others find the best Kickbacks setup guide on GitHub</sub>
+</p>
+
+<p align="center">
+  <sub>Facts last verified <strong>2026-06-16</strong> against kickbacks.ai, kickbacks.ai/faq, and the VS Code Marketplace (extension v0.3.177). Numbers like the payout threshold and country list can change — confirm on <a href="https://kickbacks.ai/faq">kickbacks.ai/faq</a>.</sub>
 </p>

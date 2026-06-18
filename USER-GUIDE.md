@@ -107,9 +107,31 @@ STEP 5 — SET UP PAYOUTS (WHEN YOU WANT TO CASH OUT)
 1. Open your browser and go to: https://kickbacks.ai
 2. Log in with the SAME Google account you used in Step 3.
 3. Review your earnings (today, this month, lifetime).
-4. Complete payout setup on the website if prompted.
+4. Connect Stripe and complete the tax forms if the site prompts you.
+
+How payouts work:
+• Earnings are paid out monthly through Stripe Connect.
+• Your balance must reach US $10 before you can cash out.
+• Some countries cannot receive payouts yet — including India, Pakistan,
+  Bangladesh, Nigeria, and Vietnam. You can still install Kickbacks and build
+  a balance, but you cannot withdraw until your country is supported.
+
+Set expectations: Kickbacks is early. It is bootstrapping its own ads while it
+signs up real advertisers, so early balances are usually small. Treat it as
+free upside, not income.
 
 The extension tracks earnings. The website is where you manage payouts.
+
+
+STAY ELIGIBLE (IMPORTANT)
+
+Kickbacks bans accounts that try to game the system. To keep your earnings:
+• Use one account per person — no extra or fake accounts.
+• Real usage only — no bots, scripts, or auto-clickers to fake ad views/clicks.
+• Do not tamper with the extension or try to get around earning caps.
+
+Just code normally and let ads show during the thinking spinner. That is all
+that counts.
 
 
 WHAT THE STATUS BAR MEANS

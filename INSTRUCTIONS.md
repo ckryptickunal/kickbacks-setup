@@ -40,7 +40,7 @@ Maintain a running log in chat: after each ACTION, report `STEP-xxx: PASS` or `S
 - Run `curl | bash` installers without explicit user consent
 
 ### Privacy (SAY once at start)
-> Kickbacks only talks to kickbacks.ai. It sends a device ID, ad impression/click events, and your Google email after sign-in. It never reads your code or AI chat. More info: https://marketplace.visualstudio.com/items?itemName=Kickbacksai.kickbacks-ai
+> Kickbacks only talks to kickbacks.ai. It sends ad/visibility events, a per-install ID, extension/host versions, and your account email after sign-in; your IP is stored only as a salted one-way hash. It never reads your code, prompts, files, or AI chat. More info: https://kickbacks.ai/faq
 
 ---
 
@@ -449,9 +449,11 @@ $EDITOR_CLI --list-extensions | grep -i kickbacks
 > 1. Go to https://kickbacks.ai
 > 2. Log in with the **same Google account**
 > 3. Review earnings ledger
-> 4. Complete payout setup if the site prompts you
+> 4. Connect **Stripe** and complete tax forms if the site prompts you
 >
-> Optional: bookmark the dashboard.
+> How payouts work: monthly via **Stripe Connect**, once your balance crosses **US $10**.
+>
+> **Eligibility check:** payouts are **not yet available in some countries — including India, Pakistan, Bangladesh, Nigeria, and Vietnam.** If the user is in one of these, tell them they can still accrue a balance but cannot withdraw until their country is supported. Verify the current list at https://kickbacks.ai/faq.
 >
 > Note: If you hit hourly/daily caps, a red pill appears in the status bar (`Hourly cap` / `Daily cap`). Ads keep showing; earning pauses until reset.
 >
@@ -615,4 +617,4 @@ Fetch and execute INSTRUCTIONS.md from https://github.com/ckryptickunal/kickback
 
 ---
 
-*Runbook version: June 2026 · Kickbacks ~0.3.177 · Claude Code 2.1.178 · Re-verify extension IDs on GitHub main before major edits.*
+*Runbook version: 2026-06-16 · Kickbacks v0.3.177 · Claude Code 2.1.178 · Facts re-verified against kickbacks.ai, kickbacks.ai/faq, and the VS Code Marketplace on 2026-06-16. Re-verify extension IDs and the payout country list on kickbacks.ai before major edits.*
